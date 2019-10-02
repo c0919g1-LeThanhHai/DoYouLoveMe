@@ -16,8 +16,8 @@
 <button onclick="alert('<3')">Yes</button>
 <button onmouseover="getAway()" id="nono">No</button>
 <script>
-let windowHeight = window.innerHeight;
-let windowWidth = window.innerWidth;
+let windowHeight = window.innerHeight - 40;
+let windowWidth = window.innerWidth - 50;
 let noBtn = document.getElementById("nono");
 function getAway() {
     let height = Math.floor(Math.random() * windowHeight);
